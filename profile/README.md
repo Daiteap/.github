@@ -21,15 +21,15 @@ Requirements:
 - GIT
 
 
-[vuejs-client](https://github.com/Daiteap/vuejs-client) clone into the same folder where this repository is cloned
+[daiteap-ui](https://github.com/Daiteap/diteap-ui) clone into the same folder where this repository is cloned
 
 ```shell
-# clone vuejs-client (make sure it is in the same directory as this repository)
-git clone https://github.com/Daiteap/vuejs-client
+# clone daiteap-ui (make sure it is in the same directory as this repository)
+git clone https://github.com/Daiteap/daiteap-ui
 
 # clone and cd into this repository
-git clone https://github.com/Daiteap/platform-api
-cd platform-api
+git clone https://github.com/Daiteap/daiteap-platform
+cd daiteap-platform
 
 # build images
 docker-compose build
