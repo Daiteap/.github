@@ -7,14 +7,13 @@ Daiteap is an open-source No-Code platform which enables developers and IT profe
 - API to manage different cloud providers without needing to integrate each provider separately
 - CLI tool to automate and integrate cloud ressources into existing systems and automation scripts
 
-For further information visit our website [daiteap.com](https://www.daiteap.com/)
-
 
 ## Getting Started ##
 
 ### Fast Track ###
 
-Follow the steps below to run Daiteap locally. 
+Follow the steps below to run Daiteap locally with one user.
+We also offer OIDC integration, user and workspace tenant managment. For further information visit our website [daiteap.com](https://www.daiteap.com/).
 
 Requirements:
 - docker 
