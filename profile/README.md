@@ -9,6 +9,10 @@ Daiteap is an open-source platform which enables developers and IT professionals
 
 For further information visit our website [daiteap.com](https://www.daiteap.com/)
 
+
+### Getting Started ###
+
+## Fast Track ##
 <!--
 
 **Here are some ideas to get you started:**
