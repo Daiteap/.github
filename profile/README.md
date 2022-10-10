@@ -10,9 +10,42 @@ Daiteap is an open-source platform which enables developers and IT professionals
 For further information visit our website [daiteap.com](https://www.daiteap.com/)
 
 
-### Getting Started ###
+## Getting Started ##
 
-## Fast Track ##
+### Fast Track ###
+
+Follow the steps below to run Daiteap locally. 
+
+Requirements:
+- docker 
+- GIT
+
+
+[vuejs-client](https://github.com/Daiteap/vuejs-client) clone into the same folder where this repository is cloned
+
+```shell
+# clone vuejs-client (make sure it is in the same directory as this repository)
+git clone https://github.com/Daiteap/vuejs-client
+
+# clone and cd into this repository
+git clone https://github.com/Daiteap/platform-api
+cd platform-api
+
+# build images
+docker-compose build
+
+# generate ssh keys
+mkdir -p docker-compose/.ssh
+ssh-keygen -o -a 100 -t rsa -f docker-compose/.ssh/id_rsa -C "user@server.com" -N "" -m PEM
+
+# start daiteap locally
+docker-compose -f docker-compose.yml --log-level DEBUG up
+
+# Init environment (first start only)
+sh docker-compose/init.sh
+
+# Navigate to http://localhost:18090
+
 <!--
 
 **Here are some ideas to get you started:**
