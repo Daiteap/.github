@@ -10,39 +10,4 @@ Daiteap is an open-source No-Code platform which enables developers and IT profe
 
 ## Getting Started ##
 
-### Fast Track ###
-
-Follow the steps below to run Daiteap locally with one user.
-We also offer OIDC integration, user and workspace tenant managment. For further information visit our website [daiteap.com](https://www.daiteap.com/).
-
-Requirements:
-- docker 
-- GIT
-
-
-[daiteap-ui](https://github.com/Daiteap/diteap-ui) clone into the same folder where this repository is cloned
-
-```shell
-# clone daiteap-ui (make sure it is in the same directory as this repository)
-git clone https://github.com/Daiteap/daiteap-ui
-
-# clone and cd into this repository
-git clone https://github.com/Daiteap/daiteap-platform
-cd daiteap-platform
-
-# build images
-docker-compose build
-
-# generate ssh keys
-mkdir -p docker-compose/.ssh
-ssh-keygen -o -a 100 -t rsa -f docker-compose/.ssh/id_rsa -C "user@server.com" -N "" -m PEM
-
-# start daiteap locally
-docker-compose -f docker-compose.yml --log-level DEBUG up
-
-# Init environment (first start only)
-sh docker-compose/init.sh
-
-# Navigate to http://localhost:18090
-
-
+Go to [daiteap-platform](https://github.com/Daiteap/daiteap-platform) repository and follow the instructions.
