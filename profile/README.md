@@ -10,4 +10,6 @@ Daiteap is an open-source No-Code platform which enables developers and IT profe
 
 ## Getting Started ##
 
-Go to [daiteap-platform](https://github.com/Daiteap/daiteap-platform) repository and follow the instructions. Also visit our website [daiteap.com](https://www.daiteap.com/) for further information.
+Go to [daiteap-platform](https://github.com/Daiteap/daiteap-platform) repository and follow the instructions. 
+
+Also visit our website [daiteap.com](https://www.daiteap.com/) for further information.
