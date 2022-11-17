@@ -14,4 +14,4 @@ Go to [daiteap-platform](https://github.com/Daiteap/daiteap-platform) repository
 
 Also visit our website [daiteap.com](https://www.daiteap.com/) for further information.
 
-![Daiteap Console](https://github.com/Daiteap/daiteap-ui/img/Console_Start_Screen_GitHub_small.png)
+![Daiteap Console](./Console_Start_Screen_GitHub_small.png)
