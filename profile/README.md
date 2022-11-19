@@ -7,10 +7,12 @@ Daiteap is an open-source No-Code platform which enables developers and IT profe
 - API to manage different cloud providers without needing to integrate each provider separately
 - CLI tool to automate and integrate cloud ressources into existing systems and automation scripts </b>
 
-![Daiteap Console](./Console_Start_Screen_GitHub_small.png)
-
 ## Getting Started ##
 
 <b>Go to [daiteap-platform](https://github.com/Daiteap/daiteap-platform) repository and follow the instructions. </b>
 
 Also visit our website [daiteap.com](https://www.daiteap.com/) for further information.
+
+![Daiteap Console](./Console_Start_Screen_GitHub_small.png)
+
+
