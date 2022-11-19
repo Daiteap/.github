@@ -2,10 +2,10 @@
 
 Daiteap is an open-source No-Code platform which enables developers and IT professionals to <b>automatically create an manage Kubernetes Clusters with Longhorn Storage, Virtual Machines and S3 compatible Storage </b> in an easy and integrated fasion. The platform offers the following advantages:
 
+- <b>Span multi-cloud Kubernetes and Compute clusters across multiple cloud providers
 - Web UI to manage multi-cloud resources and environments across a range of public and private cloud providers
-- Ability to create multi-cloud Kubernetes and Compute clusters where one cluster spans across multiple cloud providers
 - API to manage different cloud providers without needing to integrate each provider separately
-- CLI tool to automate and integrate cloud ressources into existing systems and automation scripts
+- CLI tool to automate and integrate cloud ressources into existing systems and automation scripts </b>
 
 ![Daiteap Console](./Console_Start_Screen_GitHub_small.png)
 
